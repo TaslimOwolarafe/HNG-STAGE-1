@@ -1,1 +1,1 @@
-web: python manage.py runserver
+web gunicorn stage1.wsgi:application --log-file -
