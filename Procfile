@@ -1,1 +1,1 @@
-web gunicorn stage1.wsgi:application --log-file -
+web: gunicorn stage1.wsgi
