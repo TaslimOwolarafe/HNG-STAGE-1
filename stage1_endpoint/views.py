@@ -4,7 +4,7 @@ from django.http import JsonResponse
 
 def index(request, *args, **kwargs):
     return JsonResponse({
-            "slackUsername" : 'Taslim Owolarafe',
+            "slackUsername" : 'TaslimOwolarafe',
             'backend' : True,
             'age' : 18,
             'bio' : 'student, backend developer.' 
