@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'stage1_endpoint',
-    'gunicorn'
+    'gunicorn',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [

@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from stage1_endpoint.views import index
+from stage1_endpoint.views import index, operationView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", index)
+    path("", index),
+    path("operation/", operationView)
 ]
