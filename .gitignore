@@ -2,3 +2,4 @@ endpoint.py
 api_endpoint.py
 __pycache__
 env
+openAI.py
