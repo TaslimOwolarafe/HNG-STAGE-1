@@ -42,11 +42,11 @@ def operationView(request, *args, **kwargs):
         y = int(request.data.get('y'))
         result = None
         operation_type = get_operation_value(operation)
-        if operation or operation_type == 'addition':
+        if operation_type == 'addition':
             result = x + y
-        elif operation or operation_type == 'subtraction':
+        elif operation_type == 'subtraction':
             result = x - y
-        elif operation or operation_type == 'multiplication':
+        elif operation_type == 'multiplication':
             result = x * y
         
         response = {
